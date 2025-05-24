@@ -19,8 +19,9 @@ Many legacy systems still store user passwords using MD5, which is insecure by m
 
 ```bash
 npm install md5-to-bcrypt-migrator
-
+```bash
 * Working Example with React.JS is as follows:
+ ```
  ```bash
  import { verifyAndMigrate } from 'md5-to-bcrypt-migrator';
 
@@ -41,7 +42,7 @@ const login = async (inputPassword: string, storedHash: string, hashType: 'md5' 
     console.log("Invalid password");
   }
 };
-
+ ```
 
 ## 📘 API Reference
 
