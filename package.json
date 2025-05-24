@@ -1,0 +1,29 @@
+{
+  "name": "md5-to-bcrypt-migrator",
+  "version": "1.0.0",
+  "description": "A lightweight and seamless Node.js utility to migrate legacy MD5-hashed passwords to modern bcrypt hashes during user login, enhancing application security without user disruption.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "md5",
+    "bcrypt",
+    "password",
+    "migration",
+    "authentication",
+    "security",
+    "nodejs",
+    "utility"
+  ],
+  "author": "Waseem Ahmed <wa5@users.noreply.github.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wa5/md5-to-bcrypt-migrator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wa5/md5-to-bcrypt-migrator/issues"
+  },
+  "homepage": "https://github.com/wa5/md5-to-bcrypt-migrator#readme"
+}
